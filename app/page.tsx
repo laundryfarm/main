@@ -51,7 +51,7 @@ const benefits = [
 function Logo({ compact = false }: { compact?: boolean }) {
   return (
     <a className={`brand ${compact ? "brand-compact" : ""}`} href="#top" aria-label="Laundry Farm home">
-      <Image src="/assets/laundry-farm-logo.png" width={82} height={82} alt="" priority />
+      <Image src="/assets/laundry-farm-basket-icon.png" width={82} height={64} alt="" priority />
       <span>Laundry Farm</span>
     </a>
   );
@@ -130,6 +130,12 @@ export default function Home() {
               <div><span className="google-g">G</span><strong>5.0 Google rating</strong><small>10 reviews</small></div>
               <div><ShieldCheck /><strong>100% Happiness Guarantee</strong><small>Tell us within 48 hours and we’ll make it right—no hassle.</small></div>
             </div>
+            <aside className="hero-proof" aria-label="Verified Google customer review">
+              <div className="proof-rating"><span className="proof-stars" aria-label="5 out of 5 stars">★★★★★</span><strong>5.0</strong><Image src="/assets/google-g.svg" width={20} height={20} alt="Google" /></div>
+              <q>The most efficient laundry service in LA.</q>
+              <p>— Chloe P., verified Google customer</p>
+              <small>10+ verified Google reviews</small>
+            </aside>
           </div>
         </div>
       </section>
