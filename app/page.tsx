@@ -101,10 +101,10 @@ export default function Home() {
         <div className="shell nav-wrap">
           <Logo />
           <nav className={navOpen ? "nav-links nav-open" : "nav-links"} aria-label="Primary navigation">
-            {[["How It Works", "#how"], ["Pricing", "#pricing"], ["Service Area", "#service-area"], ["FAQ", "#faq"], ["Laundry Butler", "#local-team"]].map(([label, href]) => (
+            {[["How It Works", "#how"], ["Pricing", "#pricing"], ["Service Area", "#service-area"], ["FAQ", "#faq"], ["Local Team", "#local-team"]].map(([label, href]) => (
               <a key={href} href={href} onClick={() => setNavOpen(false)}>{label}</a>
             ))}
-            <button className="button button-small" onClick={openBooking}>Schedule Pickup</button>
+            <button className="button button-small" onClick={openBooking}>Schedule My Pickup</button>
           </nav>
           <button className="menu-button" onClick={() => setNavOpen(!navOpen)} aria-label="Toggle navigation" aria-expanded={navOpen}>
             {navOpen ? <X /> : <Menu />}
@@ -191,7 +191,7 @@ export default function Home() {
       <section className="section local-team" id="local-team">
         <div className="shell local-card">
           <div className="local-photo"><Image src="/assets/laundry-farm-founders-hero.png" fill sizes="(max-width: 800px) 100vw, 42vw" alt="The local Laundry Farm team beside their delivery van" /></div>
-          <div className="local-copy"><p className="eyebrow">Laundry Butler</p><h2>A Local LA Team, Not a Faceless App</h2><p>Laundry Farm is run by real Angelenos who wash every order like it is our own. When you text us, you are texting a real person here in the city—not a call center.</p><div className="local-points"><span><House />Your neighbors, not an app</span><span><HeartHandshake />Community first</span><span><ShieldCheck />Professional care</span><span><MapPin />Proudly based in Los Angeles</span></div></div>
+          <div className="local-copy"><p className="eyebrow">Local LA Team</p><h2>A Local LA Team, Not a Faceless App</h2><p>Laundry Farm is run by real Angelenos who wash every order like it is our own. When you text us, you are texting a real person here in the city—not a call center.</p><div className="local-points"><span><House />Your neighbors, not an app</span><span><HeartHandshake />Community first</span><span><ShieldCheck />Professional care</span><span><MapPin />Proudly based in Los Angeles</span></div></div>
         </div>
       </section>
 
