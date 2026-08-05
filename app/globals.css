@@ -36,7 +36,8 @@ a { color:inherit; }
 .hero-copy { max-width:600px; }
 .eyebrow { color:var(--green); text-transform:uppercase; letter-spacing:.12em; font-size:12px; font-weight:900; margin:0 0 10px; }
 h1,h2,h3,p { margin-top:0; }
-h1 { font-size:clamp(42px, 4.2vw, 56px); line-height:1.01; letter-spacing:-.055em; max-width:620px; margin-bottom:18px; color:#073f25; }
+h1 { font-size:clamp(42px, 3.7vw, 52px); line-height:1.01; letter-spacing:-.055em; max-width:620px; margin-bottom:18px; color:#073f25; }
+.headline-line { display:block; white-space:nowrap; }
 .hero-lead { font-size:17px; line-height:1.5; color:#283641; max-width:570px; }
 .offer { margin:14px 0 12px; padding:10px 14px 10px 10px; background:#fff; border:1px solid #d8e8d9; box-shadow:0 8px 30px rgba(16,35,62,.08); display:inline-flex; border-radius:10px; align-items:center; gap:10px; color:var(--green-dark); }
 .offer-icon { background:#f9c64b; color:#17331f; border-radius:7px; padding:8px 7px; font-weight:900; }
@@ -151,6 +152,7 @@ footer { padding:25px 0 100px; border-top:1px solid var(--line); }
 .booking-modal small { color:#68746d; }
 
 @media (max-width:900px) {
+  .headline-line { white-space:normal; }
   .site-header { height:68px; }
   .brand img { width:42px; height:34px; }
   .brand span { font-size:19px; }

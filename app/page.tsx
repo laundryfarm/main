@@ -118,7 +118,7 @@ export default function Home() {
         <div className="shell hero-inner">
           <div className="hero-copy">
             <p className="eyebrow">Local laundry care, delivered</p>
-            <h1>Laundry Pickup and Delivery for Los Angeles Apartments</h1>
+            <h1><span className="headline-line">Laundry Pickup and Delivery</span><span className="headline-line">for Los Angeles Apartments</span></h1>
             <p className="hero-lead">Door-to-door wash and fold for busy LA residents. We pick up, wash, fold to your preferences, and return everything within 48 hours—so you get your weekend back.</p>
             <div className="offer"><span className="offer-icon">$10</span><strong>New customers: $10 off your first order of $50 or more</strong></div>
             <div className="service-pills">
