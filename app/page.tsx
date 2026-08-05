@@ -132,7 +132,7 @@ export default function Home() {
             </div>
             <aside className="hero-proof" aria-label="Verified Google customer review">
               <div className="proof-rating"><span className="proof-stars" aria-label="5 out of 5 stars">★★★★★</span><strong>5.0</strong><Image src="/assets/google-g.svg" width={20} height={20} alt="Google" /></div>
-              <q>The most efficient laundry service in LA.</q>
+              <q>Absolutely stellar customer service! Adam and team are so quick, thoughtful, and take great care of their customers. Laundry always comes back so clean and nicely organized.</q>
               <p>— Chloe P., verified Google customer</p>
               <small>10+ verified Google reviews</small>
             </aside>
