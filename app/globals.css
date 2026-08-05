@@ -31,7 +31,7 @@ a { color:inherit; }
 .hero { min-height:610px; position:relative; display:grid; align-items:center; overflow:hidden; }
 .hero-image { object-fit:cover; object-position:center; z-index:0; }
 .hero-shade { position:absolute; inset:0; z-index:1; background:linear-gradient(90deg, rgba(255,255,255,.97) 0%, rgba(255,255,255,.91) 34%, rgba(255,255,255,.25) 56%, rgba(255,255,255,0) 74%); }
-.founder-caption { position:absolute; z-index:3; top:102px; right:max(8px,calc((100vw - 1240px)/2)); width:238px; margin:0; padding:8px 11px; border-radius:8px; background:rgba(0,0,0,.35); color:#fff; font-family:"Caveat","Kalam",cursive; font-size:18px; font-weight:500; line-height:1.14; text-shadow:0 1px 4px rgba(0,0,0,.68); box-shadow:0 0 18px rgba(0,0,0,.18); backdrop-filter:blur(3px); }
+.founder-caption { max-width:520px; margin:14px 0 0; color:#315242; font-family:"Caveat","Kalam",cursive; font-size:18px; font-weight:500; line-height:1.18; }
 .hero-inner { position:relative; z-index:2; padding-block:30px; }
 .hero-copy { max-width:600px; }
 .eyebrow { color:var(--green); text-transform:uppercase; letter-spacing:.12em; font-size:12px; font-weight:900; margin:0 0 10px; }
@@ -161,7 +161,7 @@ footer { padding:25px 0 100px; border-top:1px solid var(--line); }
   .hero { min-height:auto; padding-top:320px; background:#eef3ed; }
   .hero-image { height:370px !important; bottom:auto !important; object-position:68% center; }
   .hero-shade { background:linear-gradient(180deg,rgba(255,255,255,0) 0 28%,#f4f7f2 98%); height:430px; }
-  .founder-caption { top:248px; right:16px; left:16px; width:auto; max-width:none; padding:7px 10px; background:rgba(0,0,0,.42); font-size:17px; line-height:1.1; text-align:center; }
+  .founder-caption { max-width:none; margin-top:16px; font-size:17px; line-height:1.15; text-align:left; }
   .hero-inner { padding:35px 0 45px; background:#f4f7f2; width:100%; }
   .hero-copy { max-width:none; }
   h1 { font-size:clamp(38px,10.8vw,56px); }
@@ -185,7 +185,6 @@ footer { padding:25px 0 100px; border-top:1px solid var(--line); }
   .section { padding:64px 0; }
   .hero { padding-top:290px; }
   .hero-image { height:330px !important; object-position:70% center; }
-  .founder-caption { top:238px; }
   .hero-inner { padding-top:28px; }
   .eyebrow { font-size:11px; }
   h1 { font-size:42px; }

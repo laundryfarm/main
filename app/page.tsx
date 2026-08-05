@@ -115,7 +115,6 @@ export default function Home() {
       <section className="hero">
         <Image className="hero-image" src="/assets/laundry-farm-founders-hero.png" fill priority sizes="100vw" alt="The Laundry Farm founders beside their green delivery van in Los Angeles" />
         <div className="hero-shade" />
-        <p className="founder-caption">&quot;I&apos;m Adam. I pick up the bags and hampers. Elizabeth is the reason they come back looking so good.&quot;</p>
         <div className="shell hero-inner">
           <div className="hero-copy">
             <p className="eyebrow">Local laundry care, delivered</p>
@@ -131,6 +130,7 @@ export default function Home() {
               <div><span className="google-g">G</span><strong>5.0 Google rating</strong><small>10 reviews</small></div>
               <div><ShieldCheck /><strong>100% Happiness Guarantee</strong><small>Tell us within 48 hours and we’ll make it right—no hassle.</small></div>
             </div>
+            <p className="founder-caption">&quot;I&apos;m Adam. I pick up the bags and hampers. Elizabeth is the reason they come back looking so good.&quot;</p>
             <aside className="hero-proof" aria-label="Verified Google customer review">
               <div className="proof-rating"><span className="proof-stars" aria-label="5 out of 5 stars">★★★★★</span><strong>5.0</strong><Image src="/assets/google-g.svg" width={20} height={20} alt="Google" /></div>
               <q>Absolutely stellar customer service! Adam and team are so quick!</q>
