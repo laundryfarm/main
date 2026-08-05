@@ -115,6 +115,7 @@ export default function Home() {
       <section className="hero">
         <Image className="hero-image" src="/assets/laundry-farm-founders-hero.png" fill priority sizes="100vw" alt="The Laundry Farm founders beside their green delivery van in Los Angeles" />
         <div className="hero-shade" />
+        <p className="founder-caption">&quot;I&apos;m Adam. I pick up the bags and hampers. Elizabeth is the reason they come back looking so good.&quot;</p>
         <div className="shell hero-inner">
           <div className="hero-copy">
             <p className="eyebrow">Local laundry care, delivered</p>
