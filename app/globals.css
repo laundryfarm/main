@@ -193,7 +193,7 @@ footer { padding:25px 0 100px; border-top:1px solid var(--line); }
   .section { padding:64px 0; }
   .hero { padding-top:290px; }
   .hero-image { height:330px !important; object-position:70% center; }
-  .hero-inner { padding-top:28px; }
+  .hero-inner { width:100%; padding:28px 14px 45px; }
   .founder-caption { display:none; }
   .hero-proof { position:absolute; top:-108px; right:0; bottom:auto; width:230px; max-width:calc(100vw - 28px); margin:0; padding:11px 12px; border-radius:11px; box-shadow:0 12px 30px rgba(10,31,20,.22); }
   .proof-rating { gap:5px; margin-bottom:6px; }
@@ -202,7 +202,8 @@ footer { padding:25px 0 100px; border-top:1px solid var(--line); }
   .hero-proof p { font-size:8.5px; margin-bottom:6px; }
   .hero-proof small { padding-top:5px; font-size:8px; }
   .eyebrow { font-size:11px; }
-  h1 { font-size:42px; }
+  h1 { font-size:clamp(26px,7.8vw,30px); line-height:1.04; letter-spacing:-.045em; }
+  .headline-line { white-space:nowrap; }
   .offer { align-items:flex-start; font-size:13px; }
   .service-pills { display:grid; grid-template-columns:repeat(2,1fr); }
   .service-pills span { display:flex; align-items:center; }
