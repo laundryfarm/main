@@ -17,6 +17,7 @@ a { color:inherit; }
 .utility { background:var(--green-dark); color:#fff; font-size:12px; }
 .utility-inner { min-height:32px; display:flex; justify-content:space-between; align-items:center; }
 .utility span,.utility a { display:flex; gap:7px; align-items:center; text-decoration:none; }
+.mobile-text-link { display:none !important; }
 .site-header { height:70px; background:rgba(255,255,255,.96); position:sticky; top:0; z-index:40; border-bottom:1px solid rgba(9,66,38,.08); backdrop-filter:blur(14px); }
 .nav-wrap { height:100%; display:flex; justify-content:space-between; align-items:center; }
 .brand { display:flex; align-items:center; gap:8px; color:#1B4332; text-decoration:none; font-family:"Poppins",Arial,sans-serif; font-size:22px; font-weight:600; letter-spacing:-.025em; }
@@ -183,7 +184,12 @@ footer { padding:25px 0 100px; border-top:1px solid var(--line); }
 
 @media (max-width:600px) {
   .shell { width:min(100% - 28px,1180px); }
-  .utility { display:none; }
+  .utility { display:block; }
+  .utility-inner { min-height:46px; justify-content:center; gap:24px; }
+  .utility-inner>span { display:none; }
+  .utility .phone-link { font-size:17px; font-weight:800; letter-spacing:.02em; }
+  .utility .phone-link svg { width:18px; height:18px; }
+  .utility .mobile-text-link { display:flex !important; min-height:34px; padding:0 12px; border:1px solid rgba(255,255,255,.52); border-radius:999px; font-size:14px; font-weight:800; }
   .section { padding:64px 0; }
   .hero { padding-top:290px; }
   .hero-image { height:330px !important; object-position:70% center; }

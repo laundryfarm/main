@@ -93,7 +93,8 @@ export default function Home() {
       <div className="utility">
         <div className="shell utility-inner">
           <span><MapPin size={14} /> Los Angeles, California</span>
-          <a href="tel:+13238074661"><Phone size={14} /> 323-807-4661</a>
+          <a className="phone-link" href="tel:+13238074661"><Phone size={14} /> 323.807.4661</a>
+          <a className="mobile-text-link" href="sms:+13238074661" aria-label="Text Laundry Farm at 323.807.4661"><MessageCircle size={16} /> Text</a>
         </div>
       </div>
 
